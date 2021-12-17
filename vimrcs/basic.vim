@@ -79,6 +79,9 @@ endif
 " Always show current position
 set ruler
 
+"Always show line number
+set nu
+
 " Height of the command bar
 set cmdheight=1
 
@@ -179,9 +182,9 @@ set expandtab
 " Be smart when using tabs ;)
 set smarttab
 
-" 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+" 1 tab == 8 spaces
+set shiftwidth=8
+set tabstop=8
 
 " Linebreak on 500 characters
 set lbr
